@@ -61,8 +61,6 @@ html
 								if user.canAccessKeystone
 									li: a(href='/keystone') Open Keystone
 								li: a(href='/keystone/signout') Sign Out
-							else
-								li: a(href='/keystone/signin') Sign In
 
 		//- BODY
 		#body
@@ -86,7 +84,8 @@ html
 		.container: #footer
 
 			//- You don't _have_ to include a link saying your site is powered by KeystoneJS, but we appreciate it!
-			p Powered by <a href="http://keystonejs.com" target="_blank">KeystoneJS</a>.
+			//- p Powered by <a href="http://keystonejs.com" target="_blank">KeystoneJS</a>.
+			p(style="text-align:right") &copy; Fairbeck Technical Resources Limited 2014
 
 
 		//- JAVASCRIPT

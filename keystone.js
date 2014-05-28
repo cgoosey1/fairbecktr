@@ -11,8 +11,8 @@ var keystone = require('keystone');
 
 keystone.init({
 	
-	'name': 'FairBeckTR',
-	'brand': 'FairBeckTR',
+	'name': 'Fairbeck TR',
+	'brand': 'Fairbeck TR',
 	
 	'less': 'public',
 	'static': 'public',
